@@ -1,0 +1,65 @@
+CPXPARAM_TimeLimit                               7200
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Output_IntSolFilePrefix                 "solucoes/t_sol_ini_ID007M015J015_ZintTrue_minla_fav_ub1181/sol"
+Tried aggregator 1 time.
+MIP Presolve eliminated 4014 rows and 496 columns.
+MIP Presolve modified 9288 coefficients.
+Reduced MIP has 6096 rows, 1305 columns, and 17984 nonzeros.
+Reduced MIP has 1079 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (13.43 ticks)
+Probing fixed 63 vars, tightened 9 bounds.
+Probing time = 0.05 sec. (35.14 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 214 rows and 63 columns.
+MIP Presolve modified 341 coefficients.
+Reduced MIP has 5882 rows, 1242 columns, and 17234 nonzeros.
+Reduced MIP has 1016 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (11.14 ticks)
+Probing fixed 6 vars, tightened 0 bounds.
+Probing time = 0.06 sec. (27.59 ticks)
+Clique table members: 10825.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.10 sec. (108.33 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      987.0860   211                    987.0860     1400         
+      0     0     1004.1167   162                   Cuts: 405     1770         
+      0     0     1013.9851   188                   Cuts: 389     2096         
+      0     0     1014.4415   183                   Cuts: 216     2377         
+      0     0     1016.6270   197                   Cuts: 309     2671         
+      0     0     1018.4127   183                   Cuts: 193     2807         
+      0     0     1020.1852   171                    Cuts: 80     2907         
+      0     0     1020.8779   180                    Cuts: 70     2989         
+      0     0     1020.9556   183                    Cuts: 97     3129         
+      0     0     1021.0667   202                   Cuts: 113     3301         
+      0     0     1021.2775   212                   Cuts: 119     3434         
+      0     0     1021.2896   209                    Cuts: 91     3507         
+      0     2     1021.2896   178                   1021.2896     3507         
+Elapsed time = 2.72 sec. (2122.28 ticks, tree = 0.01 MB, solutions = 0)
+     42    16     1116.0000   124                   1035.7674     6262         
+    187    61     1055.0000   184                   1048.8028    15599         
+    409    99     1086.0000   137                   1050.8915    29285         
+    646   119    infeasible                         1065.6225    41675         
+*   760+   20                         1181.0000     1080.6718             8.50%
+New incumbent written to file 'solucoes/t_sol_ini_ID007M015J015_ZintTrue_minla_fav_ub1181/sol-00001.sol'.
+    761    19     1181.0000     0     1181.0000     1080.6718    65589    8.50%
+
+Clique cuts applied:  47
+Implied bound cuts applied:  80
+Flow cuts applied:  52
+Mixed integer rounding cuts applied:  108
+Lift and project cuts applied:  13
+Gomory fractional cuts applied:  13
+
+Root node processing (before b&c):
+  Real time             =    2.69 sec. (2095.85 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    1.59 sec. (1364.79 ticks)
+  Sync time (average)   =    0.45 sec.
+  Wait time (average)   =    0.01 sec.
+                          ------------
+Total (root+branch&cut) =    4.28 sec. (3460.64 ticks)
